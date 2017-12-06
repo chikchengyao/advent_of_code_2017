@@ -26,14 +26,13 @@ def newSide(m):
 
 def loop(matrix):
 	n, m = newSide(matrix)
-	print(n,m)
+	print(m)
 	if n != 0:
-		print("Solution =", n)
 		return n
 	else:
 		m = rotateClockwise(m)
 		return loop(m)
 
 init = np.array([[1]])
-print(loop(init))
+print("Solution = ", loop(init))
 
