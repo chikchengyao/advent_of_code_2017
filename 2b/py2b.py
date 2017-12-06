@@ -27,6 +27,10 @@ for i in input:
 #Get checksum
 sum = 0
 for row in m:
-	sum += max(row) - min(row)
+	row.sort()
+	for i in range(len(row)):
+		for j in range(i+1, len(row)):
+			sum += int(row[j]/row[i]) if row[j]%row[i] == 0 else 0
+
 
 print(sum)
