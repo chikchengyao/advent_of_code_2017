@@ -13,6 +13,3 @@ for line in f:
 		n+=1
 
 print(n)
-
-# Check for duplicates
-
