@@ -1,6 +1,12 @@
 ##########################################################
 ##        Disgusting hacky code pls don't judge         ##
 ##########################################################
+# legit this will give you a fucking headache to read
+#
+# ABANDON HOPE ALL YE WHO ENTER HERE
+#
+# no, seriously, ask me to explain IRL it'll probably be easier
+
 
 from input import input
 from py7a import root
